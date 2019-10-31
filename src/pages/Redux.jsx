@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
-import { changeValueAC } from "../Actions"
-import store from "../store"
+import store from "../model/store"
+import { changeValueAC } from "../model/Actions"
 
 class App extends React.Component {
   handleAdd = () => {
